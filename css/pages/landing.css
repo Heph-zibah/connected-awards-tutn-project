@@ -1,0 +1,252 @@
+.menu-bar {
+    display: flex;
+    position: relative
+}
+
+.close-menu {
+    position: absolute;
+    right: 8px;
+    display: none;
+}
+
+.landing-page-modals {
+    background: #fff;
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 10%;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.mobile-nav-item {
+    padding: 27px 16px;
+    box-shadow: 0px 1px 0px rgba(219, 219, 219, 0.5);
+}
+
+.mobile-nav-item a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.hero {
+    padding: 0 16px 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    text-align: center;
+    color: #0C0114;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 77px;
+    text-align: center;
+    letter-spacing: -0.06em;
+}
+
+.hero form {
+    display: flex;
+    margin-top: 32px;
+    position: relative;
+}
+
+.hero form img {
+    position: absolute;
+    left: 4.5%;
+    top: 40%;
+}
+
+.hero form input {
+    border: 1px solid #DBDBDB;
+    border-radius: 4px;
+    background: #DBDBDB;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 21px 38px;
+    letter-spacing: -0.04em;
+    color: #BABABA;
+}
+
+.hero form button {
+    padding: 22px 24px;
+}
+
+.hero .categories {
+    display: flex;
+    margin-top: 33px;
+}
+
+.hero .categories p {
+    margin-right: 11px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #0C0114;
+}
+
+.target-section {
+    background: url("../images/landing-page/target-background.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: #1F0231;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.target-section h2 {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 40px 0 87px 0;
+}
+
+.card {
+    border: 2px solid #9E82B1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 39px;
+}
+
+.card img {
+    width: 95px;
+    margin-bottom: 18px;
+}
+
+.card p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.connected-awards-section {
+    display: flex;
+    flex-direction: column;
+    background: url("../images/landing-page/logo-right.svg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.award-img {
+    width: 100%;
+    margin-top: 41px;
+}
+
+.award-img img {
+    width: 100%;
+}
+
+.award-content,
+.edition-content {
+    margin-top: 32px;
+    padding: 0 16px;
+}
+
+.award-content h2,
+.edition-content h2 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: -0.04em;
+    color: #0C0114;
+    border-bottom: 5px solid #FA9706;
+    padding-bottom: 20px;
+}
+
+.award-content p,
+.edition-content p {
+    margin-top: 36px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.award-content button,
+.edition-content button {
+    margin-top: 32px;
+    color: #fff;
+    background: #3E0563;
+    border-radius: 4px;
+    font-weight: 600;
+    border: 0;
+    padding: 16px 24px;
+    margin-bottom: 300px;
+}
+
+.past-edition-section {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background: url("../images/landing-page/logo-left.svg");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 180px;
+}
+
+.edition-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.edition-image {
+    width: 100%;
+}
+
+.edition-image img {
+    width: 190px;
+}
+
+.talent-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+    padding: 40px 16px;
+}
+
+.talent-card {
+    border: 1px solid #DBDBDB;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 24px;
+}
+
+.talent-card-content {
+    text-align: center;
+    padding: 36px 0;
+}
+
+.talent-card-content h2 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #3E0563;
+}
+
+.talent-card-content p {
+    margin-top: 24px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}

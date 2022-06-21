@@ -1,0 +1,22 @@
+.sign-up-terms {
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 32px;
+}
+
+.sign-up-terms a {
+    color: #FA9706;
+    text-decoration: none;
+}
+
+.login-forget-password {
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 32px;
+    color: #3E0563;
+    text-decoration: none;
+}

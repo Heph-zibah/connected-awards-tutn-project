@@ -1,0 +1,29 @@
+    button {
+        border: 0;
+        padding: 16px 24px;
+        background: #3E0563;
+        border-radius: 4px;
+        font-weight: 600;
+    }
+    
+    .btn {
+        color: #fff;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    
+    .login {
+        background: #EEE8F2;
+    }
+    
+    .login a {
+        color: #0C0114;
+    }
+    
+    .create {
+        margin-left: 32px;
+    }
+    
+    .connected-button {
+        padding: 16px 32px;
+    }

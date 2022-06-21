@@ -1,0 +1,94 @@
+.register {
+    background: url("/images/landing-page/landing-footer-background.svg");
+    background-repeat: repeat;
+    background-color: #1F0231;
+}
+
+.register-container {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 24px;
+    color: #000;
+}
+
+.register-header {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    margin-bottom: 24px;
+}
+
+.register-links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.register-links span {
+    color: #FA9706;
+}
+
+.register-links a {
+    text-decoration: none;
+    margin-bottom: 12px;
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.register-google-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 60px;
+    background: rgba(216, 205, 224, 0.1);
+    border: 1px solid #D8CDE0;
+    border-radius: 4px;
+    margin: 28px 0;
+    color: #150221;
+}
+
+.register-google-link p {
+    margin-left: 20px;
+}
+
+.register-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+}
+
+.register-flex p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #A6A6A6;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label {
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+form input {
+    width: 100%;
+    border: 1px solid #D8CDE0;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 24px;
+}
+
+form select {
+    width: 100%;
+    padding: 20px;
+}

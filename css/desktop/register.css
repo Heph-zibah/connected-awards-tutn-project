@@ -1,0 +1,21 @@
+@media (min-width:1440px) {
+    .register {
+        background: url("/images/landing-page/landing-footer-background.svg");
+        background-repeat: repeat;
+        background-color: #1F0231;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .register-container {
+        width: 547px;
+        padding: 36px 40px;
+    }
+    .register-header {
+        margin-bottom: 31px;
+    }
+    .sign-up-terms {
+        margin-bottom: 24px;
+    }
+}
