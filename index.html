@@ -11,8 +11,8 @@
 
 <body>
     <header>
-        <div class="logo">
-            <img src="images/Landing Page/logo.svg" alt="logo">
+        <div class="header-logo">
+            <img src="images/landing-page/logo.svg" alt="logo">
         </div>
         <nav>
             <ul class="nav-lists">
@@ -25,15 +25,156 @@
         </nav>
 
         <div class="buttons">
-            <button class="login btn">Log in</button>
-            <button class="create btn">Create account</button>
+            <button class="btn"><a href="login.html" class="login" target="_blank">Log in</a></button>
+            <button class="btn"><a href="signup.html" class="create" target="_blank">Create account</a></button>
         </div>
         <div class="menu-bar">
-            <img src="images/Landing Page/mobile-menu-bar.svg" alt="menu bar">
+            <img src="images/landing-page/mobile-menu-bar.svg" alt="menu bar" class="open-menu">
+            <img src="images/landing-page/close-menu.svg" alt="close menu" class="close-menu">
         </div>
     </header>
 
-    <script src="js/main.js"></script>
+    <article id="mobile-modals">
+        <div class="landing-page-modals">
+            <nav>
+                <ul class="mobile-nav-lists">
+                    <li class="mobile-nav-item"><a href="#">Categories</a></li>
+                    <li class="mobile-nav-item"><a href="#">Past editions</a></li>
+                    <li class="mobile-nav-item"><a href="#">Future editions</a></li>
+                    <li class="mobile-nav-item"><a href="#">About us</a></li>
+                    <li class="mobile-nav-item"><a href="#">Make a donation</a></li>
+                    <li class="mobile-nav-item"><a href="#">Log in</a></li>
+                    <li class="mobile-nav-item"><a href="#">Create account</a></li>
+                </ul>
+            </nav>
+        </div>
+    </article>
+
+    <main>
+        <div class="hero">
+            <h1>First Ever Tech Personality Award For Africans in Europe</h1>
+            <form action="">
+                <img src="images/hero-section/search-bar.svg" alt="search-bar">
+                <input type=" search " name="search " id="search " placeholder="Nominee’s Name, Nominee’s Category ">
+                <button>Search</button>
+            </form>
+            <div class="categories">
+                <p>View all Categories</p>
+                <img src="images/hero-section/arrow-right-hero1.svg " alt="arrow right ">
+            </div>
+        </div>
+
+        <div class="target-section">
+            <h2>Our Target</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="images/landing-page/awareness.svg" alt="">
+                    <p>Awareness</p>
+                </div>
+                <div class="card">
+                    <img src="images/landing-page/competition.svg" alt="">
+                    <p>Competition</p>
+                </div>
+                <div class="card">
+                    <img src="images/landing-page/entertainment.svg" alt="">
+                    <p>Entertainment</p>
+                </div>
+                <div class="card">
+                    <img src="images/landing-page/recognition.svg" alt="">
+                    <p>Recognition</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="connected-awards-section">
+            <div class="award-img">
+                <img src="images/landing-page/connected-awards.svg" alt="">
+            </div>
+            <div class="award-content">
+                <h2>The Connected Awards</h2>
+                <p>The connected is.....It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+                    as opposed to using 'Content here, content here', making it look like readable English. </p>
+                <button>Learn more</button>
+            </div>
+        </div>
+
+        <div class="past-edition-section">
+            <div class="edition-images">
+                <div class="edition-image"><img src="images/landing-page/techie-1.svg" alt=""></div>
+                <div class="edition-image"><img src="images/landing-page/techie-2.svg" alt=""></div>
+                <div class="edition-image"><img src="images/landing-page/techie-3.svg" alt=""></div>
+                <div class="edition-image"><img src="images/landing-page/techie-4.svg" alt=""></div>
+            </div>
+
+            <div class="edition-content">
+                <h2>Past Editions</h2>
+                <p>The connected is.....It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+                    as opposed to using 'Content here, content here', making it look like readable English.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+
+        <div class="talent-section">
+            <div class="talent-card">
+                <img src="images/landing-page/talent-promising.svg" alt="">
+                <div class="talent-card-content">
+                    <h2>Promising-talent</h2>
+                    <p>Promising Talent is an individual with less than 5 years experience in Nigeria technology ecosystem. Such individual are well recognized in their field for impacting with their skills.</p>
+                </div>
+            </div>
+            <div class="talent-card">
+                <img src="images/landing-page/talent-intermediate.svg" alt="">
+                <div class="talent-card-content">
+                    <h2>Intermediate Talent</h2>
+                    <p>Intermediate Talent is an individual with less than 5 years experience in Nigeria technology ecosystem. Such individual are well recognized in their field for impacting with their skills.</p>
+                </div>
+            </div>
+            <div class="talent-card">
+                <img src="images/landing-page/talent-exceptional.svg" alt="">
+                <div class="talent-card-content">
+                    <h2>Exceptional Talent</h2>
+                    <p>Exceptional Talent is an individual with more than 5 years experience in Nigeria technology ecosystem. Such individual are well recognized in their field for impacting with their skills.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li class="nav-header"><a href="#">About</a></li>
+                <li class="footer-list"><a href="#">The Connected Magazine</a></li>
+                <li class="footer-list"><a href="#">Past Editions</a></li>
+                <li class="footer-list"><a href="#">Make a donation</a></li>
+            </ul>
+            <ul>
+                <li class="nav-header"><a href="#">Legal</a></li>
+                <li class="footer-list"><a href="#">Terms of Service</a></li>
+                <li class="footer-list"><a href="#">Privacy Policy</a></li>
+
+            </ul>
+            <ul>
+                <li class="nav-header"><a href="#">Follow</a></li>
+                <li class="footer-list"><a href="#">LinkedIn</a></li>
+            </ul>
+            <ul>
+                <li class="nav-header"><a href="#">Contact</a></li>
+                <li class="footer-list"><a href="#">+2347057219951</a></li>
+                <li class="footer-list"><a href="#">Chat on Whatsapp</a></li>
+                <li class="footer-list"><a href="#">theconnected@techtrend.africa</a></li>
+            </ul>
+        </nav>
+
+        <div class="footer-info">
+            <div class="footer-logo-info">
+                <img src="images/landing-page/logo.svg" alt="">
+                <p>Connecting Techies Globally</p>
+            </div>
+            <p>© 2022 The Connected Awards - All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js "></script>
 </body>
 
 </html>
