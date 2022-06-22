@@ -45,6 +45,9 @@
     .buttons {
         visibility: hidden;
     }
+    .user-info {
+        visibility: hidden;
+    }
     .edition-images {
         align-items: center;
         justify-content: center;
@@ -58,6 +61,9 @@
 @media (min-width:769px) {
     header nav,
     .buttons {
+        visibility: hidden;
+    }
+    .user-info {
         visibility: hidden;
     }
 }

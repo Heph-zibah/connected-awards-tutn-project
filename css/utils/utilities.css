@@ -9,6 +9,18 @@
     display: block;
 }
 
+@media (min-width:1025px) {
+    .menu-bar {
+        display: block;
+    }
+}
+
+@media (min-width:1201px) {
+    .menu-bar {
+        display: none;
+    }
+}
+
 .close-menu {
     position: absolute;
     top: 0;
