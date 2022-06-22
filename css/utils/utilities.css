@@ -1,13 +1,18 @@
 /* Mobile-responsiveness */
 
 .menu-bar {
-    display: flex;
-    position: relative
+    display: block;
+    position: relative;
+}
+
+.open-menu {
+    display: block;
 }
 
 .close-menu {
     position: absolute;
-    right: 8px;
+    top: 0;
+    right: 15%;
     display: none;
 }
 
@@ -39,6 +44,10 @@
 .page-header {
     text-align: center;
     margin: 64px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .page-header h1 {
@@ -51,6 +60,33 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
+}
+
+.page-header form {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    margin-top: 32px;
+    position: relative;
+}
+
+.page-header form img {
+    position: absolute;
+    left: 4.5%;
+    top: 30%;
+}
+
+.page-header form input {
+    border: 1px solid #DBDBDB;
+    border-radius: 4px;
+    background: #DBDBDB;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 21px 38px;
+    letter-spacing: -0.04em;
+    color: #BABABA;
+    margin-bottom: 0;
 }
 
 
@@ -149,4 +185,10 @@ form input {
 form select {
     width: 100%;
     padding: 20px;
+}
+
+.utilities-card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 40px 24px;
 }

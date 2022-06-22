@@ -1,12 +1,9 @@
 @import './base/reset.css';
 @import './base/typography.css';
 @import './components/button.css';
-@import './desktop/connected-awards.css';
-@import './desktop/celebrated-techies.css';
-@import './desktop/landing.css';
-@import './desktop/register.css';
 @import './layout/footer.css';
 @import './layout/header.css';
+@import './pages/categories.css';
 @import './pages/connected-awards.css';
 @import './pages/celebrated-techies.css';
 @import './pages/future-edition.css';
