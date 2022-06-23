@@ -16,6 +16,7 @@ footer nav {
 
 footer nav ul li {
     margin-top: 24px;
+    list-style-type: none;
 }
 
 .nav-header a {
