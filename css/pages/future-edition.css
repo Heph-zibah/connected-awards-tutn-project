@@ -11,8 +11,8 @@
     align-items: center;
     justify-content: center;
     padding: 29px;
-    background: #FFFFFF;
-    box-shadow: 0px 2px 15px rgba(230, 230, 230, 0.5);
+    background: #FFF;
+    box-shadow: var(--box-shadow-secondary);
     border-radius: 8px;
 }
 
@@ -21,23 +21,13 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 22px;
-    color: #0C0114;
+    color: var(--color-primary);
     text-align: center;
 }
 
 .future-card button {
     margin-top: 57px;
     width: 100%;
-}
-
-@media (min-width:769px) {
-    /* header nav,
-    .buttons {
-        visibility: hidden;
-    } */
-    /* .user-info {
-        visibility: hidden;
-    } */
 }
 
 @media (min-width:1201px) {
@@ -48,10 +38,6 @@
 }
 
 @media (min-width:1440px) {
-    .future-edition-cards {
-        grid-template-columns: repeat(4, 1fr);
-        padding: 64px 80px;
-    }
     .future-card {
         padding: 32px;
     }

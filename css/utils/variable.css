@@ -1,0 +1,7 @@
+:root {
+    --button-primary: #3E0563;
+    --button-secondary: #EEE8F2;
+    --box-shadow-primary: 0px 1px 0px rgba(219, 219, 219, 0.5);
+    --box-shadow-secondary: 0px 2px 15px rgba(230, 230, 230, 0.5);
+    --color-primary: #0C0114;
+}

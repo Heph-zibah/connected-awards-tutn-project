@@ -14,8 +14,8 @@
     align-items: center;
     justify-content: center;
     padding: 0;
-    background: #FFFFFF;
-    box-shadow: 0px 2px 15px rgba(230, 230, 230, 0.5);
+    background: #FFF;
+    box-shadow: var(--box-shadow-secondary);
     border-radius: 8px;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .celebrated-card small {
-    color: purple;
+    color: var(--button-primary);
 }
 
 @media (min-width:769px) {

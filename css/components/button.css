@@ -1,7 +1,7 @@
     button {
         border: 0;
         padding: 16px 24px;
-        background: #3E0563;
+        background: var(--button-primary);
         border-radius: 4px;
         font-weight: 600;
     }
@@ -19,11 +19,11 @@
     }
     
     .login {
-        background: #EEE8F2;
+        background: var(--button-secondary);
     }
     
     .login a {
-        color: #0C0114;
+        color: var(--color-primary);
     }
     
     .create {
