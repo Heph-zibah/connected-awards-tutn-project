@@ -1,206 +1,235 @@
-/* Mobile-responsiveness */
-
-.menu-bar {
-    display: block;
-    position: relative;
-}
-
-.open-menu {
-    display: block;
-}
-
-@media (min-width:1025px) {
+    /* Mobile-responsiveness */
+    
     .menu-bar {
         display: block;
+        position: relative;
     }
-}
-
-@media (min-width:1201px) {
-    .menu-bar {
+    
+    .open-menu {
+        display: block;
+    }
+    
+    .close-menu {
+        position: absolute;
+        top: 10%;
+        right: 2%;
         display: none;
     }
-}
-
-.close-menu {
-    position: absolute;
-    top: 0;
-    right: 15%;
-    display: none;
-}
-
-.landing-page-modals {
-    background: #fff;
-    display: none;
-    position: fixed;
-    left: 0;
-    top: 42%;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-}
-
-.mobile-nav-item {
-    padding: 27px 16px;
-    box-shadow: 0px 1px 0px rgba(219, 219, 219, 0.5);
-}
-
-.mobile-nav-item a {
-    text-decoration: none;
-    color: #000000;
-}
-
-
-/* CELEBREATED TECHIES, CONNECTED AWARD, FUTURE EDITION */
-
-.page-header {
-    text-align: center;
-    margin: 64px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.page-header h1 {
-    font-size: 24px;
-    margin-bottom: 8px;
-}
-
-.page-header p {
-    margin-bottom: 40px;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 17px;
-}
-
-.page-header form {
-    display: flex;
-    justify-content: center;
-    align-items: top;
-    margin-top: 32px;
-    position: relative;
-}
-
-.page-header form img {
-    position: absolute;
-    left: 4.5%;
-    top: 30%;
-}
-
-.page-header form input {
-    border: 1px solid #DBDBDB;
-    border-radius: 4px;
-    background: #DBDBDB;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    padding: 21px 38px;
-    letter-spacing: -0.04em;
-    color: #BABABA;
-    margin-bottom: 0;
-}
-
-
-/* LOGIN AND SIGN UP */
-
-.register {
-    background: url("/images/landing-page/landing-footer-background.svg");
-    background-repeat: repeat;
-    background-color: #1F0231;
-}
-
-.register-container {
-    background: #fff;
-    display: flex;
-    flex-direction: column;
-    padding: 80px 24px;
-    color: #000;
-}
-
-.register-header {
-    text-align: center;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 29px;
-    margin-bottom: 24px;
-}
-
-.register-links {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.register-links span {
-    color: #FA9706;
-}
-
-.register-links a {
-    text-decoration: none;
-    margin-bottom: 12px;
-    color: #000;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-}
-
-.register-google-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 20px 60px;
-    background: rgba(216, 205, 224, 0.1);
-    border: 1px solid #D8CDE0;
-    border-radius: 4px;
-    margin: 28px 0;
-    color: #150221;
-}
-
-.register-google-link p {
-    margin-left: 20px;
-}
-
-.register-flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 4px;
-}
-
-.register-flex p {
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    color: #A6A6A6;
-}
-
-form {
-    margin: 40px 0;
-}
-
-form label {
-    width: 100%;
-    margin-bottom: 2px;
-}
-
-form input {
-    width: 100%;
-    border: 1px solid #D8CDE0;
-    border-radius: 4px;
-    padding: 20px;
-    margin-bottom: 24px;
-}
-
-form select {
-    width: 100%;
-    padding: 20px;
-}
-
-.utilities-card {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    padding: 40px 24px;
-}
+    
+    @media (min-width:1131px) {
+        .menu-bar {
+            display: none;
+        }
+        .close-menu {
+            display: none;
+        }
+    }
+    
+    @media (min-width:1201px) {
+        .menu-bar {
+            display: none;
+        }
+    }
+    
+    main {
+        padding-top: 150px;
+    }
+    
+    .landing-page-modals {
+        background: #fff;
+        display: none;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 200;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        animation-name: modalOpen;
+        animation-duration: 1s;
+    }
+    
+    @keyframes modalOpen {
+        from {
+            opacity: 0
+        }
+        to {
+            opacity: 1
+        }
+    }
+    
+    .modal-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 19px 16px;
+        background: #fff;
+        box-shadow: 0px 1px 0px rgb(219 219 219 / 50%);
+    }
+    
+    .mobile-nav-item {
+        padding: 27px 16px;
+        box-shadow: 0px 1px 0px rgba(219, 219, 219, 0.5);
+        display: flex;
+        align-items: center;
+    }
+    
+    .mobile-nav-item img {
+        margin-right: 10px;
+    }
+    
+    .mobile-nav-item a {
+        text-decoration: none;
+        color: #000000;
+    }
+    /* CELEBREATED TECHIES, CONNECTED AWARD, FUTURE EDITION */
+    
+    .page-header {
+        text-align: center;
+        margin: 64px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .page-header h1 {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+    
+    .page-header p {
+        margin-bottom: 40px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    
+    .page-header form {
+        display: flex;
+        justify-content: center;
+        align-items: top;
+        margin-top: 32px;
+        position: relative;
+    }
+    
+    .page-header form img {
+        position: absolute;
+        left: 4.5%;
+        top: 30%;
+    }
+    
+    .page-header form input {
+        border: 1px solid #DBDBDB;
+        border-radius: 4px;
+        background: #DBDBDB;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        padding: 21px 38px;
+        letter-spacing: -0.04em;
+        color: #BABABA;
+        margin-bottom: 0;
+    }
+    /* LOGIN AND SIGN UP */
+    
+    .register {
+        background: url("/images/landing-page/landing-footer-background.svg");
+        background-repeat: repeat;
+        background-color: #1F0231;
+    }
+    
+    .register-container {
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        padding: 80px 24px;
+        color: #000;
+    }
+    
+    .register-header {
+        text-align: center;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 29px;
+        margin-bottom: 24px;
+    }
+    
+    .register-links {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .register-links span {
+        color: #FA9706;
+    }
+    
+    .register-links a {
+        text-decoration: none;
+        margin-bottom: 12px;
+        color: #000;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    
+    .register-google-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 20px 60px;
+        background: rgba(216, 205, 224, 0.1);
+        border: 1px solid #D8CDE0;
+        border-radius: 4px;
+        margin: 28px 0;
+        color: #150221;
+    }
+    
+    .register-google-link p {
+        margin-left: 20px;
+    }
+    
+    .register-flex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4px;
+    }
+    
+    .register-flex p {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #A6A6A6;
+    }
+    
+    form {
+        margin: 40px 0;
+    }
+    
+    form label {
+        width: 100%;
+        margin-bottom: 2px;
+    }
+    
+    form input {
+        width: 100%;
+        border: 1px solid #D8CDE0;
+        border-radius: 4px;
+        padding: 20px;
+        margin-bottom: 24px;
+    }
+    
+    form select {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .utilities-card {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 40px 24px;
+    }

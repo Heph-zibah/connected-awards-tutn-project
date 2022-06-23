@@ -22,17 +22,17 @@
 }
 
 @media (min-width:481px) {
-    header nav,
+    /* header nav,
     .buttons {
         visibility: hidden;
-    }
+    } */
 }
 
 @media (min-width:769px) {
-    header nav,
+    /* header nav,
     .buttons {
         visibility: hidden;
-    }
+    } */
     .register {
         background: url("/images/landing-page/landing-footer-background.svg");
         background-repeat: repeat;
@@ -49,10 +49,10 @@
 }
 
 @media (min-width:1025px) {
-    header nav,
+    /* header nav,
     .buttons {
         visibility: hidden;
-    }
+    } */
     .register {
         background: url("/images/landing-page/landing-footer-background.svg");
         background-repeat: repeat;
@@ -69,7 +69,7 @@
 }
 
 @media (min-width:1201px) {
-    header {
+    /* header {
         padding: 20px 60px;
     }
     header nav,
@@ -90,7 +90,7 @@
     }
     .menu-bar {
         display: none;
-    }
+    } */
     .register {
         background: url("/images/landing-page/landing-footer-background.svg");
         background-repeat: repeat;

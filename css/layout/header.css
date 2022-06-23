@@ -1,8 +1,123 @@
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 19px 16px;
-    background: #fff;
-    box-shadow: 0px 1px 0px rgba(219, 219, 219, 0.5);
-}
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 19px 16px;
+            background: #fff;
+            box-shadow: 0px 1px 0px rgba(219, 219, 219, 0.5);
+            position: fixed;
+            width: 100%;
+            z-index: 100;
+            transition: 1s;
+        }
+        
+        header nav {
+            display: none;
+        }
+        
+        .buttons {
+            display: none;
+        }
+        
+        .nav-lists {
+            display: flex;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        
+        .nav-item {
+            margin-left: 30px;
+        }
+        
+        .nav-item a {
+            text-decoration: none;
+            color: #0C0114;
+        }
+        
+        .user-id {
+            display: none;
+        }
+        
+        .user-info {
+            display: flex;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            color: #0C0114;
+        }
+        
+        .points {
+            display: flex;
+            padding: 0 10px;
+            align-items: center;
+        }
+        
+        .points img {
+            margin-right: 10px;
+        }
+        
+        .user {
+            display: flex;
+            align-items: center;
+            padding: 0;
+            border-left: 1px solid #DBDBDB;
+        }
+        
+        .user img {
+            margin: 8px;
+        }
+        
+        @media (max-width:480px) {
+            /* header nav {
+                display: none;
+            }
+            .buttons {
+                display: none;
+            }
+            .user-id {
+                display: none;
+            } */
+        }
+        
+        @media (min-width:481px) {
+            /* header nav {
+                display: none;
+            }
+            .buttons {
+                display: none;
+            }
+            .user-id {
+                display: none;
+            } */
+        }
+        
+        @media (min-width:769px) {
+            /* header nav {
+                display: none;
+            }
+            .buttons {
+                display: none;
+            } */
+            .user-id {
+                display: block;
+            }
+        }
+        
+        @media (min-width:1131px) {
+            header {
+                padding: 20px 30px;
+            }
+            header nav {
+                display: block;
+            }
+            .buttons {
+                display: block;
+            }
+        }
+        
+        @media (min-width:1201px) {
+            header {
+                padding: 20px 60px;
+            }
+        }

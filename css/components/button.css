@@ -8,6 +8,8 @@
     
     .buttons {
         display: flex;
+        padding: 0;
+        margin: 0;
     }
     
     .btn {

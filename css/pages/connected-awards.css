@@ -46,10 +46,6 @@
 }
 
 @media (max-width:480px) {
-    header nav,
-    .buttons {
-        visibility: hidden;
-    }
     .login {
         display: none;
     }
@@ -59,20 +55,12 @@
 }
 
 @media (min-width:481px) {
-    header nav,
-    .buttons {
-        visibility: hidden;
-    }
     .connected-button {
         visibility: visible;
     }
 }
 
 @media (min-width:769px) {
-    header nav,
-    .buttons {
-        visibility: hidden;
-    }
     .connected-awards-body {
         display: flex;
         align-items: center;
@@ -92,25 +80,6 @@
 }
 
 @media (min-width:1025px) {
-    header {
-        padding: 20px 60px;
-    }
-    header nav,
-    .buttons {
-        visibility: visible;
-    }
-    .nav-lists {
-        display: flex;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .nav-item {
-        margin-left: 30px;
-    }
-    .nav-item a {
-        text-decoration: none;
-        color: #0C0114;
-    }
     .connected-awards-content {
         padding-right: 145px;
     }
@@ -127,25 +96,6 @@
 }
 
 @media (min-width:1201px) {
-    header {
-        padding: 20px 60px;
-    }
-    header nav,
-    .buttons {
-        visibility: visible;
-    }
-    .nav-lists {
-        display: flex;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .nav-item {
-        margin-left: 30px;
-    }
-    .nav-item a {
-        text-decoration: none;
-        color: #0C0114;
-    }
     .connected-button {
         padding: 16px 32px;
         margin-left: 32px;
@@ -156,25 +106,6 @@
 }
 
 @media (min-width:1440px) {
-    header {
-        padding: 20px 60px;
-    }
-    header nav,
-    .buttons {
-        visibility: visible;
-    }
-    .nav-lists {
-        display: flex;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .nav-item {
-        margin-left: 30px;
-    }
-    .nav-item a {
-        text-decoration: none;
-        color: #0C0114;
-    }
     .connected-awards-container {
         padding: 80px;
     }
